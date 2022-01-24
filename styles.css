@@ -1,0 +1,42 @@
+#shapebox {
+  position: relative;
+  height: 602px;
+  width: 602px;
+  border: solid black 1px;
+}
+
+#shapecalc {
+  height: 350px;
+  width: 400px;
+  border: solid black 1px;
+}
+
+.circle {
+  position: absolute;
+  background-color: purple;
+  border-radius: 50%;
+  opacity: 0.6;
+}
+
+.rectangle {
+  position: absolute;
+  background-color: green;
+  opacity: 0.6;
+}
+
+.square {
+  position: absolute;
+  background-color: red;
+  opacity: 0.6;
+}
+
+.triangle {
+  position: absolute;
+  height: 0;
+  width: 0;
+  border-bottom-style: solid;
+  border-bottom-color: yellow;
+  border-right-style: solid;
+  border-right-color: transparent;
+  opacity: 0.6;
+}
